@@ -1,1 +1,0 @@
-webpackJsonp([2],{0:function(n,e,s){!function(){throw new Error('Cannot find module "/home/zandy/Atnic/Web/theme/laravel-inspinia/resources/assets/js/app.js"')}(),function(){throw new Error('Cannot find module "/home/zandy/Atnic/Web/theme/laravel-inspinia/resources/assets/sass/app.scss"')}(),n.exports=s("XGYx")},XGYx:function(n,e){}},[0]);
