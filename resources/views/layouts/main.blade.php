@@ -27,7 +27,7 @@
   @stack('head')
 </head>
 
-<body class="">
+<body class="body-small {{ config('admin-lte.skin', '') }}">
   <div id="wrapper">
     @include('inspinia::layouts.sidebar.main')
     @include('inspinia::layouts.main-panel.main')
