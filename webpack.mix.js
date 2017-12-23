@@ -11,9 +11,6 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
-
 mix.js('resources/assets/js/inspinia.js', 'public/js')
    .sass('resources/assets/sass/inspinia.scss', 'public/css');
 
@@ -28,3 +25,4 @@ mix.js('resources/assets/js/inspinia.js', 'public/js')
      'vue', 'axios'
  ], 'public/js/vendor.js');
  mix.version();
+ mix.setPublicPath('public');
