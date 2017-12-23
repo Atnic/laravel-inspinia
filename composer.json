@@ -1,7 +1,7 @@
 {
     "name": "atnic/laravel-inspinia",
     "description": "Laravel Package for integrating Inspinia template and this package is Laravel Mix friendly.",
-    "keywords": ["laravel", "adminlte", "inspinia", "package", "composer"],
+    "keywords": ["laravel", "inspinia", "package", "composer"],
     "license": "MIT",
     "type": "package",
     "require": {
