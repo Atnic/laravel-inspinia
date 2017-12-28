@@ -1,3 +1,14 @@
+[Origin Project](https://wrapbootstrap.com/theme/inspinia-responsive-admin-theme-WB0R5L90S)
+
+This is only a demo! 
+
+If you're only going to study these source code, be free to view them.
+
+If you want to deploy or use it (especially on commercial), Please purchase $36 for it on {wrap}Bootstrap.
+
+All rights are reserved by the [owner](https://wrapbootstrap.com/user/WebAppLayers) of this project.
+
+
 # Laravel Inspinia
 Laravel Package for integrating Inspinia template and this package is Laravel Mix friendly. Currently this package can be integrated easily only on fresh installation.
 
