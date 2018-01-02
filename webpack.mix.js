@@ -11,18 +11,27 @@ let mix = require('laravel-mix');
  |
  */
 
+mix.webpackConfig({
+  resolve: {
+    alias: {
+      pace: 'pace-js'
+    }
+  }
+});
+
+mix.autoload({
+  jquery: ['$', 'jQuery', 'jquery']
+});
+
 mix.js('resources/assets/js/inspinia.js', 'public/js')
-   .sass('resources/assets/sass/inspinia.scss', 'public/css');
+  .sass('resources/assets/sass/inspinia.scss', 'public/css');
 
- mix.js('resources/assets/js/auth.js', 'public/js');
+mix.js('resources/assets/js/auth.js', 'public/js');
 
- mix.autoload({
-     jquery: [ '$', 'jQuery', 'jquery'],
- });
-
- mix.extract([
-     'lodash', 'jquery', 'bootstrap-sass',
-     'vue', 'axios'
- ], 'public/js/vendor.js');
- mix.version();
- mix.setPublicPath('public');
+mix.extract([
+  'lodash', 'jquery', 'bootstrap-sass',
+  'metismenu', 'jquery-slimscroll', 'pace-js',
+  'vue', 'axios'
+], 'public/js/vendor.js');
+mix.version();
+mix.setPublicPath('public');

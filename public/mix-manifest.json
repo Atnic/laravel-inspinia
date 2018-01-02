@@ -1,7 +1,7 @@
 {
-    "/js/vendor.js": "/js/vendor.js?id=c4beb8ddba4cd7d7c5b7",
-    "/js/inspinia.js": "/js/inspinia.js?id=71b57468bfc3b02c9b4b",
-    "/css/inspinia.css": "/css/inspinia.css?id=0ade3c9e2da4ef918ea1",
-    "/js/auth.js": "/js/auth.js?id=9d85b3690726b93ebca9",
-    "/js/manifest.js": "/js/manifest.js?id=a00a0340d70d8e31184c"
+    "/js/vendor.js": "/js/vendor.js?id=8993d83c759d2cacc55d",
+    "/js/auth.js": "/js/auth.js?id=d3c625dd5b3fd72d4dfb",
+    "/js/inspinia.js": "/js/inspinia.js?id=9af62fe50c8239b2f328",
+    "/css/inspinia.css": "/css/inspinia.css?id=bee4faacb3dc44043b89",
+    "/js/manifest.js": "/js/manifest.js?id=837ae3fd6ab913f5c991"
 }

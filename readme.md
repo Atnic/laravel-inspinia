@@ -97,7 +97,7 @@ npm install
 
 Install Inspinia needed package from npm
 ```bash
-npm install --save-dev font-awesome animate.css
+npm install --save-dev font-awesome metismenu animate.css jquery-slimscroll pace-js
 ```
 
 Run Laravel Mix command

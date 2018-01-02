@@ -34,7 +34,7 @@
   </div>
 
   @section('scripts')
-    <script src="{{ mix('/js/manifest.js') }}" charset="utf-8"></script>
+  <script src="{{ mix('/js/manifest.js') }}" charset="utf-8"></script>
   <script src="{{ mix('/js/vendor.js') }}" charset="utf-8"></script>
 	<script src="{{ mix('/js/inspinia.js') }}" charset="utf-8"></script>
 	@show

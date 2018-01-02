@@ -46,16 +46,4 @@
         <p class="m-t"> <small>Inspinia we app framework base on Bootstrap 3 &copy; {{ date('Y') }}</small> </p>
     </div>
 </div>
-
-@endsection
-
-@section('auth-scripts')
-  <script>
-      $(document).ready(function(){
-          $('.i-checks').iCheck({
-              checkboxClass: 'icheckbox_square-green',
-              radioClass: 'iradio_square-green',
-          });
-      });
-  </script>
 @endsection
