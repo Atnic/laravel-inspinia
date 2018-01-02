@@ -6,17 +6,20 @@ try {
   // Bootstrap Sass
   require('bootstrap-sass');
 
+  // iCheck
+  require('icheck');
+
   //Metis Menu
   require('metismenu');
 
   // jQuery SlimScroll
   require('jquery-slimscroll');
 
-  // Pace JS
-  require('pace-js');
-
   // Inspinia
   require('./inspinia/inspinia');
+
+  // Pace JS
+  require('pace-js');
 
 } catch (e) {}
 
