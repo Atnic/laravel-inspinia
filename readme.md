@@ -1,6 +1,6 @@
 [Origin Project](https://wrapbootstrap.com/theme/inspinia-responsive-admin-theme-WB0R5L90S)
 
-This is only a demo! 
+This is only a demo!
 
 If you're only going to study these source code, be free to view them.
 
@@ -97,7 +97,7 @@ npm install
 
 Install Inspinia needed package from npm
 ```bash
-npm install --save-dev font-awesome
+npm install --save-dev font-awesome animate.css
 ```
 
 Run Laravel Mix command
