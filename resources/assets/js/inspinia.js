@@ -19,7 +19,8 @@ try {
   require('./inspinia/inspinia');
 
   // Pace JS
-  require('pace-js');
+  window.pace = require('pace-js');
+  pace.start();
 
 } catch (e) {}
 
