@@ -1,4 +1,4 @@
-<div class="ibox float-e-margins">
+<div class="ibox">
   @if(isset($header) || isset($title))
   <div class="ibox-title">
     @if(isset($header))
