@@ -15,6 +15,9 @@ try {
   // jQuery SlimScroll
   require('jquery-slimscroll');
 
+  // bootstrap-datepicker
+  require('bootstrap-datepicker');
+
   // Inspinia
   require('./inspinia/inspinia');
 
@@ -70,4 +73,5 @@ $(document).ready(function() {
     checkboxClass: 'icheckbox_square-green',
     radioClass: 'iradio_square-green',
   });
+  $('.date').datepicker();
 });
