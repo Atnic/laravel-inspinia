@@ -18,6 +18,9 @@ try {
   // bootstrap-datepicker
   require('bootstrap-datepicker');
 
+  // select2
+  require('select2');
+
   // Inspinia
   require('./inspinia/inspinia');
 
@@ -74,4 +77,5 @@ $(document).ready(function() {
     radioClass: 'iradio_square-green',
   });
   $('.date').datepicker();
+  $('.select2').select2();
 });

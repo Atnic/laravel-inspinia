@@ -97,7 +97,7 @@ npm install
 
 Install Inspinia needed package from npm
 ```bash
-npm install --save-dev animate.css bootstrap-datepicker font-awesome icheck jquery-slimscroll metismenu pace-js
+npm install --save-dev animate.css bootstrap-datepicker font-awesome icheck jquery-slimscroll metismenu pace-js select2
 ```
 
 Run Laravel Mix command
