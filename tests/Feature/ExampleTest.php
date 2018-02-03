@@ -1,6 +1,6 @@
 <?php
 
-namespace Atnic\Inspinia\Tests;
+namespace Atnic\Inspinia\Tests\Feature;
 
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithoutMiddleware;
