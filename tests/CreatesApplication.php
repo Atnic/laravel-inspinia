@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace Atnic\Inspinia\Tests;
 
 use Illuminate\Contracts\Console\Kernel;
 

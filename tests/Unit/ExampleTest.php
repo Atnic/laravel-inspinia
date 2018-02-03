@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Unit;
+namespace Atnic\Inspinia\Tests;
 
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
