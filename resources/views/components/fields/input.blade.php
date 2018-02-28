@@ -2,7 +2,7 @@
   @if (!empty($field['type']) && $field['type'] == 'checkbox')
   <input type="hidden" name="{{ $field['name'] }}" value="0">
   <div>
-    <label><input type="checkbox" name="{{ $field['name'] }}" class="i-checks" value="1" {{ old($field['name'], isset($model) ? $model->{$field['name']} : null) == 1 ? 'selected' : '' }}> {{ !empty($field['label']) ? $field['label'] : title_case(str_replace('_', ' ', snake_case($field['name']))) }}</label>
+    <label><input type="checkbox" name="{{ $field['name'] }}" class="i-checks" value="1" {{ old($field['name'], isset($model) ? $model->{$field['name']} : null) == 1 ? 'checked' : '' }}> {{ !empty($field['label']) ? $field['label'] : title_case(str_replace('_', ' ', snake_case($field['name']))) }}</label>
   </div>
   @elseif (!empty($field['type']) && $field['type'] == 'radio')
   @foreach ($field['options'] as $key => $option)
