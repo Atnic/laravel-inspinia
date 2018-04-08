@@ -8,7 +8,7 @@ mix.webpackConfig({
 });
 
 mix.autoload({
-  jquery: ['$', 'jQuery', 'jquery'],
+  jquery: ['$', 'jQuery', 'jquery', 'window.jQuery'],
 });
 
 mix.js('resources/assets/js/inspinia.js', 'public/js')
@@ -17,8 +17,19 @@ mix.js('resources/assets/js/inspinia.js', 'public/js')
 mix.js('resources/assets/js/auth.js', 'public/js');
 
 mix.extract([
-  'lodash', 'jquery', 'bootstrap-sass',
-  'metismenu', 'jquery-slimscroll', 'pace-js',
-  'vue', 'axios'
+  'axios',
+  'bootstrap-datepicker',
+  'bootstrap-sass',
+  'icheck',
+  'jquery',
+  'jquery-slimscroll',
+  'lodash',
+  'metismenu',
+  'moment',
+  'pace-js',
+  'select2',
+  'toastr',
+  'vue',
 ], 'public/js/vendor.js');
+
 mix.version();

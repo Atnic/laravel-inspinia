@@ -19,5 +19,18 @@
 // Select2
 @import "node_modules/select2/dist/css/select2";
 
-// style
-@import "./inspinia/style";
+// Select2 Bootstrap Theme
+@import "node_modules/select2-bootstrap-theme/src/select2-bootstrap";
+
+// Toastr
+@import "node_modules/toastr/build/toastr";
+
+// Style
+@import "inspinia/style";
+
+.select2 {
+  width: 100% !important;
+}
+.select2-dropdown {
+  z-index: 9999;
+}

@@ -27,6 +27,11 @@
             </span>
         @endif
        </div>
+       <div class="form-group">
+         <div class="checkbox i-checks">
+           <label> <input type="checkbox" name="remember" value="1" {{ old('remember') ? 'checked' : '' }}><i></i> Agree the terms and policy </label>
+         </div>
+       </div>
        <button type="submit" class="btn btn-primary block full-width m-b">Login</button>
 
        <a href="{{ route('password.request') }}"><small>Forgot password?</small></a>

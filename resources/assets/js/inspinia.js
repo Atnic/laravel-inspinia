@@ -24,9 +24,15 @@ try {
   // Inspinia
   require('./inspinia/inspinia');
 
+  //moment
+  window.moment = require('moment');
+
   // Pace JS
   window.pace = require('pace-js');
   pace.start();
+
+  // toastr
+  window.toastr = require('toastr');
 
 } catch (e) {}
 
@@ -74,8 +80,14 @@ if (token) {
 $(document).ready(function() {
   $('.i-checks').iCheck({
     checkboxClass: 'icheckbox_square-green',
-    radioClass: 'iradio_square-green',
+    radioClass: 'iradio_square-green'
   });
-  $('.date').datepicker();
-  $('.select2').select2();
+  $('.js-datepicker').datepicker({
+    todayHighlight: true
+  });
+  $('.js-select2').select2({
+    allowClear: true,
+    dropdownAutoWidth: true,
+    theme: 'bootstrap'
+  });
 });

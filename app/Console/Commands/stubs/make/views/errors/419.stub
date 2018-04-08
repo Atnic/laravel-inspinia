@@ -2,11 +2,11 @@
 
 @section('content')
 <div class="middle-box text-center animated fadeInDown">
-  <h1>403</h1>
+  <h1>419</h1>
   <h3 class="font-bold">Oops! {{ class_basename($exception->getPrevious() ? : $exception) }}</h3>
 
   <div class="error-desc">
-    {{ $exception->getPrevious() ? $exception->getPrevious()->getMessage() : $exception->getMessage() }}
+    {{ $exception->getMessage() ? : 'The page has expired due to inactivity. Please refresh and try again.' : '' }}
     <form class="form-inline m-t" role="form">
       <div class="form-group">
         <input type="text" class="form-control" placeholder="Search">
