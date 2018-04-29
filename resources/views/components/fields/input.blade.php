@@ -12,7 +12,14 @@
   @endforeach
   @else
   <label class="control-label">{{ !empty($field['label']) ? $field['label'] : title_case(str_replace('_', ' ', snake_case($field['name']))) }}{{ !empty($field['required']) ? '*' : '' }}</label>
-  <input type="{{ !empty($field['type']) ? $field['type'] : 'text' }}" class="form-control" name="{{ $field['name'] }}" value="{{ old($field['name'], isset($model) ? $model->{$field['name']} : null) }}"{{ !empty($field['required']) ? 'required' : '' }}>
+  <input type="{{ !empty($field['type']) ? $field['type'] : 'text' }}"
+         class="form-control"
+         name="{{ $field['name'] }}"
+         value="{{ old($field['name'], isset($model) ? $model->{$field['name']} : null) }}"
+         @if (!empty($field['type']) && $field['type'] == 'number')
+         step="{{ !empty($field['step']) ? $field['step'] : 'any ' }}"
+         @endif
+         {{ !empty($field['required']) ? 'required' : '' }}>
   @endif
   @if ($errors->has($field['name']))
   <span class="help-block">{{ $errors->first($field['name']) }}</span>
