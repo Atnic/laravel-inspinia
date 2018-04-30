@@ -11,27 +11,39 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.webpackConfig({
-  resolve: {
-    alias: {
-      pace: 'pace-js'
-    }
-  }
-});
+ mix.webpackConfig({
+   resolve: {
+     alias: {
+       pace: 'pace-js'
+     }
+   }
+ });
 
-mix.autoload({
-  jquery: ['$', 'jQuery', 'jquery']
-});
+ mix.autoload({
+   jquery: ['$', 'jQuery', 'jquery', 'window.jQuery'],
+ });
 
-mix.js('resources/assets/js/inspinia.js', 'public/js')
-  .sass('resources/assets/sass/inspinia.scss', 'public/css');
+ mix.js('resources/assets/js/inspinia.js', 'public/js')
+   .sass('resources/assets/sass/inspinia.scss', 'public/css');
 
-mix.js('resources/assets/js/auth.js', 'public/js');
+ mix.js('resources/assets/js/auth.js', 'public/js');
 
-mix.extract([
-  'lodash', 'jquery', 'bootstrap-sass',
-  'metismenu', 'jquery-slimscroll', 'pace-js',
-  'vue', 'axios'
-], 'public/js/vendor.js');
-mix.version();
+ mix.extract([
+   'axios',
+   'bootstrap-datepicker',
+   'bootstrap-sass',
+   'icheck',
+   'jquery',
+   'jquery-slimscroll',
+   'lodash',
+   'metismenu',
+   'moment',
+   'pace-js',
+   'select2',
+   'toastr',
+   'vue',
+ ], 'public/js/vendor.js');
+
+ mix.version();
+
 mix.setPublicPath('public');
