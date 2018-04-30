@@ -9,9 +9,10 @@
     {{ $exception->getPrevious() ? $exception->getPrevious()->getMessage() : $exception->getMessage() }}
     <form class="form-inline m-t" role="form">
       <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search for page">
+        <input type="text" class="form-control" placeholder="Search">
       </div>
       <button type="submit" class="btn btn-primary">Search</button>
+      <a href="{{ route('home') }}" class="btn btn-default">Home</a>
     </form>
   </div>
 </div>
