@@ -1,29 +1,29 @@
 // Bootstrap
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
 // Font-Awesome
-@import "node_modules/font-awesome/scss/font-awesome";
+@import "~font-awesome/scss/font-awesome";
 
 // iCheck
-@import "node_modules/icheck/skins/square/green";
+@import "~icheck/skins/square/green.css";
 
 // Animate.css
-@import "node_modules/animate.css/animate";
+@import "~animate.css/animate.css";
 
 // MetisMenu
-@import "node_modules/metismenu/dist/metisMenu";
+@import "~metismenu/dist/metisMenu.css";
 
 // Bootstrap Datepicker
-@import "node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker3";
+@import "~bootstrap-datepicker/dist/css/bootstrap-datepicker3.css";
 
 // Select2
-@import "node_modules/select2/dist/css/select2";
+@import "~select2/dist/css/select2.css";
 
 // Select2 Bootstrap Theme
-@import "node_modules/select2-bootstrap-theme/src/select2-bootstrap";
+@import "~select2-bootstrap-theme/src/select2-bootstrap";
 
 // Toastr
-@import "node_modules/toastr/build/toastr";
+@import "~toastr/build/toastr.css";
 
 // Style
 @import "inspinia/style";
