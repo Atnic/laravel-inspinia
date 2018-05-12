@@ -19,7 +19,7 @@ try {
   require('bootstrap-datepicker');
 
   // clockpicker
-  require('clockpicker');
+  require('clockpicker/dist/bootstrap-clockpicker');
 
   // select2
   require('select2');

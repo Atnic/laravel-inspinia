@@ -32,6 +32,7 @@ let mix = require('laravel-mix');
    'axios',
    'bootstrap-datepicker',
    'bootstrap-sass',
+   'clockpicker/dist/bootstrap-clockpicker',
    'icheck',
    'jquery',
    'jquery-slimscroll',
