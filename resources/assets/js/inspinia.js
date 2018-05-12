@@ -88,7 +88,7 @@ $(document).ready(function() {
   $('.js-datepicker').datepicker({
     todayHighlight: true
   });
-  $('.time').clockpicker({
+  $('.js-clockpicker').clockpicker({
     autoclose: true
   });
   $('.js-select2').select2({
