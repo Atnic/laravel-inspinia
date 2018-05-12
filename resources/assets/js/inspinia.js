@@ -18,6 +18,9 @@ try {
   // bootstrap-datepicker
   require('bootstrap-datepicker');
 
+  // clockpicker
+  require('clockpicker');
+
   // select2
   require('select2');
 
@@ -84,6 +87,9 @@ $(document).ready(function() {
   });
   $('.js-datepicker').datepicker({
     todayHighlight: true
+  });
+  $('.js-clockpicker').clockpicker({
+    autoclose: true
   });
   $('.js-select2').select2({
     allowClear: true,
