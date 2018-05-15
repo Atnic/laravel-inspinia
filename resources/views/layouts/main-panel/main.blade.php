@@ -117,7 +117,7 @@
     </nav>
   </div>
   <div class="row wrapper border-bottom white-bg page-heading">
-    <div class="col-sm-4">
+    <div class="col-sm-12">
       <h2>@yield('content-title', 'Title')</h2>
       @section('breadcrumbs')
       <ol class="breadcrumb">
