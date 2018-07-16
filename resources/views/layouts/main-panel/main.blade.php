@@ -131,7 +131,9 @@
       @show
     </div>
     <div class="col-sm-8">
-        @yield('header-actions')
+       <div class="title-action">
+         @yield('header-actions')
+       </div>
     </div>
   </div>
 
