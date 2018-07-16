@@ -130,11 +130,9 @@
       </ol>
       @show
     </div>
-    {{-- <div class="col-sm-8">
-      <div class="title-action">
-        <a href="" class="btn btn-primary">This is action area</a>
-      </div>
-    </div> --}}
+    <div class="col-sm-8">
+        @yield('header-actions')
+    </div>
   </div>
 
   <div class="wrapper wrapper-content">
