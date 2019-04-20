@@ -16,6 +16,7 @@
          class="form-control"
          name="{{ $field['name'] }}"
          value="{{ old($field['name'], isset($model) ? $model->{$field['name']} : null) }}"
+         @isset($field['placeholder']) placeholder="{{ $field['placeholder'] }}" @endisset
          @if (!empty($field['type']) && $field['type'] == 'number')
          step="{{ !empty($field['step']) ? $field['step'] : 'any ' }}"
          @endif
