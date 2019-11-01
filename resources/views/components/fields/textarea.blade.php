@@ -3,6 +3,7 @@
   <textarea class="form-control" name="{{ $field['name'] }}"
     rows="{{ !empty($field['row']) ? $field['row'] : 4 }}"
     cols="{{ !empty($field['cols']) ? $field['cols'] : 80 }}"
+    @isset($field['placeholder']) placeholder="{{ $field['placeholder'] }}" @endisset
     {{ !empty($field['required']) ? 'required' : '' }}>{{ old($field['name'], isset($model) ? $model->{$field['name']} : null) }}</textarea>
   @if ($errors->has($field['name']))
   <span class="help-block">{{ $errors->first($field['name']) }}</span>
