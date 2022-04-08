@@ -23,7 +23,7 @@
     "laravel-mix": "^2.1.14",
     "lodash": "^4.17.15",
     "metismenu": "^2.7.9",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "pace-js": "^1.0.2",
     "select2": "^4.0.11",
     "select2-bootstrap-theme": "0.1.0-beta.10",
